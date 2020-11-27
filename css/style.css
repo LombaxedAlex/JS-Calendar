@@ -22,13 +22,17 @@
     background-position: center;
     background-size: cover;
     display: grid;
-    grid-template-columns: repeat(3, 33);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     grid-template-areas: 
         "month1 month2 month3"
         "month4 month5 month6"
         "month7 month8 month9"
         "month10 month11 month12"
+        "month13 month14 month15"
+        "month16 month17 month18"
+        "month19 month20 month21"
+        "month22 month23 month24"
     ;
 
 }
